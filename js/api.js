@@ -1,8 +1,8 @@
 const API = (() => {
-    const BASE = 'http://study.duyiedu.com';
+    const BASE = 'https://study.duyiedu.com';
     const TOKEN_KEY = 'token';
 
-    // 封装的get请求
+    // 封装的get请求s
     function get(path) {
         const headers = {};
         const token = localStorage.getItem(TOKEN_KEY);
